@@ -59,7 +59,7 @@ Visual analysis confirmed the model's effectiveness. For randomly selected query
 
 ![Nearest Neighbor Examples](Part2/utils/nearest_neighbors1.png)
 
-#### 3. Impact of Contrastive Loss Margin (Bonus)
+#### 3. Impact of Contrastive Loss Margin 
 The effect of the margin parameter `m` in the contrastive loss function was investigated.
 - With **`m=1.0`**, the model performed well but had some outliers.
 - By increasing the margin to **`m=2.0`**, the model was forced to create a more separated embedding space. This resulted in fewer outliers and a tighter clustering of images belonging to the same person, leading to a more robust model.
